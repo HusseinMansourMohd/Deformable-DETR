@@ -18,7 +18,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from PIL import Image
 
-import .box_ops as box_ops
+from .box_ops import * 
 from .misc import NestedTensor, interpolate, nested_tensor_from_tensor_list
 
 try:

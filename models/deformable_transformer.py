@@ -17,7 +17,7 @@ from torch import nn, Tensor
 from torch.nn.init import xavier_uniform_, constant_, uniform_, normal_
 
 <<<<<<< HEAD
-from util.misc import inverse_sigmoid
+from .misc import inverse_sigmoid
 from models.ops.modules import ms_deform_attn as MSDeformAttn
 =======
 from .misc import inverse_sigmoid
